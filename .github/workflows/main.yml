@@ -6,7 +6,7 @@ name: CI
 # events but only for the main branch
 on:
   push:
-    branches: [ main, <netid>/ci_setup ]
+    branches: [ main, isant028/ci_setup ]
   pull_request:
     branches: [ main ]
 
