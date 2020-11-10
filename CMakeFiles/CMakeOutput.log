@@ -678,3 +678,31 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/csmajs/mvong006/lab-05---github-actions-amuni012-isant028-lab5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/rh/devtoolset-6/root/usr/bin/gmake cmTC_39fae/fast && /opt/rh/devtoolset-6/root/usr/bin/gmake  -f CMakeFiles/cmTC_39fae.dir/build.make CMakeFiles/cmTC_39fae.dir/build
+gmake[1]: Entering directory '/home/csmajs/mvong006/lab-05---github-actions-amuni012-isant028-lab5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39fae.dir/CheckIncludeFile.c.o
+/opt/rh/devtoolset-6/root/usr/bin/cc    -o CMakeFiles/cmTC_39fae.dir/CheckIncludeFile.c.o   -c /home/csmajs/mvong006/lab-05---github-actions-amuni012-isant028-lab5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_39fae
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_39fae.dir/link.txt --verbose=1
+/opt/rh/devtoolset-6/root/usr/bin/cc      -rdynamic CMakeFiles/cmTC_39fae.dir/CheckIncludeFile.c.o  -o cmTC_39fae 
+gmake[1]: Leaving directory '/home/csmajs/mvong006/lab-05---github-actions-amuni012-isant028-lab5/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/csmajs/mvong006/lab-05---github-actions-amuni012-isant028-lab5/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/rh/devtoolset-6/root/usr/bin/gmake cmTC_0b660/fast && /opt/rh/devtoolset-6/root/usr/bin/gmake  -f CMakeFiles/cmTC_0b660.dir/build.make CMakeFiles/cmTC_0b660.dir/build
+gmake[1]: Entering directory '/home/csmajs/mvong006/lab-05---github-actions-amuni012-isant028-lab5/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b660.dir/CheckFunctionExists.c.o
+/opt/rh/devtoolset-6/root/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0b660.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0b660
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_0b660.dir/link.txt --verbose=1
+/opt/rh/devtoolset-6/root/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0b660.dir/CheckFunctionExists.c.o  -o cmTC_0b660  -lpthread 
+gmake[1]: Leaving directory '/home/csmajs/mvong006/lab-05---github-actions-amuni012-isant028-lab5/CMakeFiles/CMakeTmp'
+
+
+
