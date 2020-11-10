@@ -8,7 +8,7 @@ on:
   push:
    branches: [ main, mvong006/failing_tests ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, mvong006/failing_tests ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
