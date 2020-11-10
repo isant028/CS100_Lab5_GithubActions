@@ -28,5 +28,5 @@ double Rectangle::getLength(){
     return this->height;
 }
 double Rectangle::area(){
-	return this->width * this->height;
+	return this->width + this->height;
 }

@@ -26,8 +26,8 @@ TEST(AreaTest, DecPos) {
 }
 TEST(AreaTest, DecDec) {
     double temp1, temp2;
-    //temp1 = 2.5;
-    //temp2 = 3.5;
+    temp1 = 2.5;
+    temp2 = 3.5;
     Rectangle rect;
     rect.set_width(temp1);
     rect.set_height(temp2);
@@ -46,8 +46,8 @@ TEST(AreaTest, ZeroPos) {
 
 TEST(PerimeterTest, PosPos) {
     double temp1, temp2;
-    //temp1 = 3;
-    //temp2 = 4;
+    temp1 = 3;
+    temp2 = 4;
     Rectangle rect;
     rect.set_width(temp1);
     rect.set_height(temp2);
@@ -56,8 +56,8 @@ TEST(PerimeterTest, PosPos) {
 
 TEST(PerimeterTest, DecPos) {
     double temp1, temp2;
-    //temp1 = 3.5;
-    //temp2 = 4;
+    temp1 = 3.5;
+    temp2 = 4;
     Rectangle rect;
     rect.set_width(temp1);
     rect.set_height(temp2);
@@ -65,8 +65,8 @@ TEST(PerimeterTest, DecPos) {
 }
 TEST(PerimeterTest, DecDec) {
     double temp1, temp2;
-    //temp1 = 3.5;
-    //temp2 = 4.5;
+    temp1 = 3.5;
+    temp2 = 4.5;
     Rectangle rect;
     rect.set_width(temp1);
     rect.set_height(temp2);
@@ -74,8 +74,8 @@ TEST(PerimeterTest, DecDec) {
 }
 TEST(PerimeterTest, ZeroPos) {
     double temp1, temp2;
-    //temp1 = 0;
-    //temp2 = 4;
+    temp1 = 0;
+    temp2 = 4;
     Rectangle rect;
     rect.set_width(temp1);
     rect.set_height(temp2);
@@ -84,8 +84,8 @@ TEST(PerimeterTest, ZeroPos) {
 
 TEST(ConstructorTest, PosPos) {
     double temp1, temp2;
-    //temp1 = 3;
-    //temp2 = 4;
+    temp1 = 3;
+    temp2 = 4;
     Rectangle rect(temp1, temp2);
     EXPECT_EQ(rect.getWidth(),  3);
     EXPECT_EQ(rect.getLength(), 4);
@@ -93,8 +93,8 @@ TEST(ConstructorTest, PosPos) {
 
 TEST(ConstructorTest, DecDec) {
     double temp1, temp2;
-    //temp1 = 3.5;
-    //temp2 = 4.5;
+    temp1 = 3.5;
+    temp2 = 4.5;
     Rectangle rect(temp1, temp2);
     EXPECT_EQ(rect.getWidth(),  3.5);
     EXPECT_EQ(rect.getLength(), 4.5);
@@ -102,8 +102,8 @@ TEST(ConstructorTest, DecDec) {
 
 TEST(ConstructorTest, PosDec) {
     double temp1, temp2;
-   // temp1 = 3.5;
-    //temp2 = 4;
+    temp1 = 3.5;
+    temp2 = 4;
     Rectangle rect(temp1, temp2);
     EXPECT_EQ(rect.getWidth(),  3.5);
     EXPECT_EQ(rect.getLength(), 4);
@@ -111,8 +111,8 @@ TEST(ConstructorTest, PosDec) {
 
 TEST(ConstructorTest, ZeroPos) {
     double temp1, temp2;
-    //temp1 = 0;
-    //temp2 = 4;
+    temp1 = 0;
+    temp2 = 4;
     Rectangle rect(temp1, temp2);
     EXPECT_EQ(rect.getWidth(),  0);
     EXPECT_EQ(rect.getLength(), 4);
