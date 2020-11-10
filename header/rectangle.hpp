@@ -9,8 +9,8 @@ class Rectangle {
         Rectangle();
         Rectangle(double w, double h);
 	
-	double getLength();
-	double getWidth();
+	    double getLength();
+	    double getWidth();
         void set_width(double w);
         void set_height(double h);
         double area();
