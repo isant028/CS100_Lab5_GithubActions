@@ -9,7 +9,7 @@ Rectangle::Rectangle(double w, double h){
 Rectangle::Rectangle(){}
 
 double Rectangle::perimeter(){
-    return (this->width * 2) + (this->height * 2);
+    return (this->width * 2) - (this->height * 2);
 }
 
 void Rectangle::set_width(double w) {
