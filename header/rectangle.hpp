@@ -11,8 +11,17 @@ public:
 void set_width(int w);
 void set_height(int h);
 
+<<<<<<< HEAD
 int area();
 int perimeter();
+=======
+        double getWidth();
+        double getHeight();
+        void set_width(int w);
+        void set_height(int h);
+        double area();
+        double perimeter();
+>>>>>>> main
 };
 #endif /* RECTANGLE_HPP */
 
