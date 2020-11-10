@@ -1,24 +1,4 @@
-<<<<<<< HEAD
 #include "../header/rectangle.hpp"
-=======
-<<<<<<< HEAD
-#include "../header/rectangle.hpp"
-
-void Rectangle::set_width(int w) {
-this->width = w;
-}
-
-void Rectangle::set_height(int h){
-this->height = h;
-}
-
-
-
-int Rectangle::area(){
-return this->width * this->height;
-=======
-nclude "../header/rectangle.hpp"
->>>>>>> main
 
 
 Rectangle::Rectangle(double w, double h){
@@ -48,5 +28,5 @@ double Rectangle::getHeight(){
 }
 double Rectangle::area(){
 	return this->width * this->height;
->>>>>>> main
 }
+
