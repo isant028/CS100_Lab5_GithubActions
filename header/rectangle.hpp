@@ -9,10 +9,12 @@ class Rectangle {
         Rectangle();
         Rectangle(int w,int h);
 
+        double getWidth();
+        double getHeight();
         void set_width(int w);
         void set_height(int h);
-        int area();
-        int perimeter();
+        double area();
+        double perimeter();
 };
 
 #endif // RECTANGLE_HPP
