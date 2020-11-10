@@ -3,16 +3,16 @@
 
 class Rectangle {
     private:
-        int width;
-        int height;
+        double width;
+        double height;
     public:
         Rectangle();
-        Rectangle(int w,int h);
+        Rectangle(double w,double h);
 
         double getWidth();
         double getHeight();
-        void set_width(int w);
-        void set_height(int h);
+        void set_width(double w);
+        void set_height(double h);
         double area();
         double perimeter();
 };
