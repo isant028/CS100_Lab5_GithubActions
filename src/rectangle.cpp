@@ -18,6 +18,13 @@ void Rectangle::set_height(int h){
 	this->height = h;
 }
 
+double Rectangle::getWidth(){
+    return this->width;
+}
+
+double Rectangle::getLength(){
+    return this->length;
+}
 int Rectangle::area(){
 	return this->width * this->height;
 }
